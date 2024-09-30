@@ -6,6 +6,8 @@ public class Ejercicio1 {
 
         System.out.println("Cambio 2");
 
+        System.out.println("Cambio 3");
+
 
     }
 

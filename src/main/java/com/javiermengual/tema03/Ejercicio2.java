@@ -15,10 +15,10 @@ public class Ejercicio2 {
              if (num1>num2){
                  System.out.println("Numero 1 es mayor que numero 2");
              }
-                if (num1<num2){
+                else if (num1<num2){
                     System.out.println("Numero 1 es menor que numero 2");
                 }
-                    if (num1==num2){
+                  else   if (num1==num2){
                         System.out.println("Son iguales");
                     }
 

@@ -35,7 +35,7 @@ public class Ejercicio6 {
 
         totalMonedas += centimos;
 
-        System.out.println("El número mínimo de monedas necesarias es: " + totalMonedas);
+        System.out.println("El numero minimo de monedas necesarias es: " + totalMonedas);
 
         scanner.close();
 

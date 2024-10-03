@@ -21,6 +21,7 @@ public class Ejercicio9 {
         }else {
             System.out.println("Es escaleno");
         }
+        scanner.close();
 
 
     }

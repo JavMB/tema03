@@ -33,6 +33,7 @@ public class Ejercicio8 {
              */
         };
         System.out.println(caraDado);
+        scanner.close();
 
     }
 }

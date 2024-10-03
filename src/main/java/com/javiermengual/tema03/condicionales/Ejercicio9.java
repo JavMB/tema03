@@ -1,4 +1,4 @@
-package com.javiermengual.tema03;
+package com.javiermengual.tema03.condicionales;
 import java.util.Scanner;
 public class Ejercicio9 {
     public static void main(String[] args) {

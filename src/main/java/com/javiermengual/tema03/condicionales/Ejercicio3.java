@@ -1,4 +1,4 @@
-package com.javiermengual.tema03;
+package com.javiermengual.tema03.condicionales;
 
 import java.util.Scanner;
 

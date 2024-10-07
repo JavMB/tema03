@@ -1,16 +1,30 @@
 package com.javiermengual.tema03.bucles;
+import java.util.Scanner;
 
 public class Ejercicio3 {
     public static void main(String[] args) {
-        // Variable para almacenar la suma
-        int suma = 0;
+        Scanner scanner = new Scanner(System.in);
 
-        // Bucle para sumar los números del 1 al 1000
-        for (int i = 1; i <= 1000; i++) {
-            suma += i;
+        // Solicitar los números al usuario
+        System.out.print("Ingrese el primer número: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Ingrese el segundo número: ");
+        int num2 = scanner.nextInt();
+
+        // Variable para almacenar el resultado
+        int resultado = 0;
+
+        // Calcular el producto usando sumas
+        for (int i = 0; i < num2; i++) {
+            resultado += num1;
         }
 
-        // Imprimir el resultado
-        System.out.println("La suma de los números del 1 al 1000 es: " + suma);
+        // Mostrar el resultado
+        System.out.println("El producto de " + num1 + " y " + num2 + " es: " + resultado);
+
+        scanner.close();
     }
 }
+
+

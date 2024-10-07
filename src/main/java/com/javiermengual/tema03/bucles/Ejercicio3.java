@@ -12,6 +12,15 @@ public class Ejercicio3 {
 
         System.out.print("Ingrese el segundo número: ");
         int num2 = scanner.nextInt();
+        if (num1<0) {
+            num1 = -num1;
+
+        }
+
+        if (num2<0){
+            num2 = -num2 ;
+        }
+
 
         // Calcular el producto usando sumas
         for (int i = 0; i < num2; i++) {
@@ -19,10 +28,13 @@ public class Ejercicio3 {
         }
 
         // Mostrar el resultado
-        System.out.println("El producto de " + num1 + " y " + num2 + " es: " + resultado);
+
+            System.out.println("El producto de " + num1 + " y " + num2 + " es: " + resultado);
+
+
 
         scanner.close();
-    }
-}
+
+}   }
 
 

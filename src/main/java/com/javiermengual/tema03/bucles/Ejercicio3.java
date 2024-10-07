@@ -5,6 +5,7 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int resultado = 0;
+        int signoA,signoB;
 
         // Solicitar los números al usuario
         System.out.print("Ingrese el primer número: ");
@@ -12,14 +13,12 @@ public class Ejercicio3 {
 
         System.out.print("Ingrese el segundo número: ");
         int num2 = scanner.nextInt();
-        if (num1<0) {
-            num1 = -num1;
 
-        }
+        signoA=num1<0?-1:1;
+        num1*=signoA;
+        signoB=num2<0?-1:1;
+        num2*=signoB;
 
-        if (num2<0){
-            num2 = -num2 ;
-        }
 
 
         // Calcular el producto usando sumas
@@ -29,10 +28,12 @@ public class Ejercicio3 {
 
         // Mostrar el resultado
 
-            System.out.println("El producto de " + num1 + " y " + num2 + " es: " + resultado);
 
+        resultado=resultado*signoA*signoB;
+        num1*=signoA;
+        num2*=signoB;
 
-
+        System.out.println("Calculado sumando"+num1+" " +num2+" "+resultado);
         scanner.close();
 
 }   }

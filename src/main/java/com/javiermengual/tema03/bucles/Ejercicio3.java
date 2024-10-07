@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int resultado = 0;
 
         // Solicitar los números al usuario
         System.out.print("Ingrese el primer número: ");
@@ -11,9 +12,6 @@ public class Ejercicio3 {
 
         System.out.print("Ingrese el segundo número: ");
         int num2 = scanner.nextInt();
-
-        // Variable para almacenar el resultado
-        int resultado = 0;
 
         // Calcular el producto usando sumas
         for (int i = 0; i < num2; i++) {

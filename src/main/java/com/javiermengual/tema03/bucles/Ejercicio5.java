@@ -31,7 +31,7 @@ public class Ejercicio5 {
             System.out.println(); // Nueva línea para el siguiente número
         }
 
-        // Mostrar resumen
+        
         System.out.println("\nResumen:");
         System.out.println("Números pares: " + contadorPares + ", Suma: " + sumaPares);
         System.out.println("Números impares: " + contadorImpares + ", Suma: " + sumaImpares);

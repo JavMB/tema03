@@ -16,6 +16,7 @@ public class Ejercicio7 {
         System.out.println("Dime los dos numeros"); //Pedimos numeros
         n1=Float.parseFloat(scanner.nextLine());
         n2=Float.parseFloat(scanner.nextLine());
+        scanner.close();
 
         signo1=n1<0?-1:1;   //Guardamos los signos
         signo2=n2<0?-1:1;
@@ -28,16 +29,16 @@ public class Ejercicio7 {
         }
 
 
-                for (int i = 1; i <= n2; i++) { //hacemos la potencia
+        for (int i = 1; i <= n2; i++) { //hacemos la potencia
                     potencia *= n1;
-                }
+        }
 
-            if(n2*signo2<0) {
+        if(n2*signo2<0) {
                 potencia=(1/potencia);
                 System.out.println(potencia);
-            }else {
+        }else {
                 System.out.println(potencia*signo1*signo2); //ponemos los signos iniciales
-            }
+        }
 
 
 

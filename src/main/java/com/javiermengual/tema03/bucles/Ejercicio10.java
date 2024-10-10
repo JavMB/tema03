@@ -13,13 +13,5 @@ public class Ejercicio10 {
            contador+=n1;
        }while (n1!=0);
 
-
-
-
-
-
-
-
-
     }
 }

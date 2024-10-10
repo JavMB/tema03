@@ -9,7 +9,7 @@ public class Ejercicio12 {
         Random rand = new Random();
         int intentos;
         int contadorintentos=0;
-        int numeroAleatorio = rand.nextInt(100);
+        int numeroAleatorio = rand.nextInt(101);
         int numeroUsuario;
 
         System.out.println("Dime cuantos intentos");

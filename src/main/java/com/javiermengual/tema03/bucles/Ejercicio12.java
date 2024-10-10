@@ -28,7 +28,7 @@ public class Ejercicio12 {
 
             }
 
-        }while (contadorintentos<=intentos);
+        }while (contadorintentos<intentos);
 
         if (numeroUsuario!=numeroAleatorio){
             System.out.println("HAS PERDIDO");

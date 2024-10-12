@@ -8,7 +8,7 @@ public class Ejercicio12 {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
         int intentos;
-        int contadorintentos = 0;
+        int contadorintentos = 1;
         int numeroAleatorio = rand.nextInt(101);
         int numeroUsuario;
 
@@ -28,7 +28,7 @@ public class Ejercicio12 {
 
             }
 
-        } while (contadorintentos < intentos);
+        } while (contadorintentos <= intentos);
 
         if (numeroUsuario != numeroAleatorio) {
             System.out.println("HAS PERDIDO");

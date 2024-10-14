@@ -8,7 +8,7 @@ public class Ejercicio15 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int h,m,s;
-        System.out.println("Dime la hora, minutos y segundos");
+        System.out.println("Dime la hora, minutos y segundos| Escribelos sucesivamente");
         h=Integer.parseInt(sc.nextLine());
         m=Integer.parseInt(sc.nextLine());
         s=Integer.parseInt(sc.nextLine());

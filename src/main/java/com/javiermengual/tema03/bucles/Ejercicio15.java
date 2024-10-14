@@ -13,7 +13,7 @@ public class Ejercicio15 {
         m=Integer.parseInt(sc.nextLine());
         s=Integer.parseInt(sc.nextLine());
 
-        if (h>24||m>60||s>60){
+        if (h>24||m>59||s>59){
             System.out.println("Hora incorrecta");
         }else {
             System.out.println("Horra correcta");

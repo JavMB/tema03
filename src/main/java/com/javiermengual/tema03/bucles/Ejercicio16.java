@@ -62,7 +62,7 @@ El primero que llegue a 5 porras gana la partida*/
                     System.out.println("PORRA PARA LA CPU +1 LA CPU SACO UN : "+tirada);
                 } else if (puntosPlayer > tirada) {
                     playerPorra++;
-                    System.out.println("PORRA PARA EL PLAYER +1");
+                    System.out.println("PORRA PARA EL PLAYER +1 LA CPU SACO UN :"+tirada);
                 }
             } else {
                 cpuPorra++;
